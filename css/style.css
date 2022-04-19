@@ -128,6 +128,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
+
 .header-mail:hover,
 .header-mail:focus,
 .header-tel:hover,
@@ -135,20 +136,24 @@ img {
   color: var(--accent-color);
 }
 
-.header-icon {
-  margin-right: 10px;
-  fill: var(--secondary-text-color);
-}
-
 .header-connect:hover,
 .header-connect:focus {
   color: var(--accent-color);
 }
 
-/* .header-icon :hover,
-.header-icon :focus {
-  color: var(--accent-color);
+/* .header-mail {
+  fill: var(--secondary-text-color);
 } */
+
+.header-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.header-icon:hover,
+.header-icon:focus {
+  color: var(--accent-color);
+}
 
 /*-------------------------HERO-----------------------*/
 
